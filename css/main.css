@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    
+}
+
+.list > h2{
+    text-align: center;
+}
+
+.list > ul{
+    width: 100%;
+}
+
+.list > ul > li{
+    padding: 5px;
+    list-style: none;
+}
+
+.list > ul > li:hover{
+    cursor: pointer;
+    background-color: #B5B5BF;
+}
+
+.container{
+    width: 80%;
+    float: right;
+}
+
+.gato {
+    display: inline-block;
+    margin: 5px;
+    padding: 0;
+    
+}
+
+.gato > img{
+    cursor: pointer;
+}
+
+.gato, .gato > img{
+    width: 300px;
+}
+
+
+.container > p{
+    font-size: 1.5em;
+}
+
+.new-cat{
+    clear: both;
+    
+}
