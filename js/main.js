@@ -56,15 +56,15 @@ document.addEventListener('DOMContentLoaded', function() {
         listarGatos: function() {
             var lista = document.getElementById('list');
             lista.innerHTML = '';
-            controller.pegarGatos().forEach(function (gato, index) {
+            controller.pegarGatos().forEach(function (gato, index) {            
                 var liGato = document.createElement('li');
                 liGato.setAttribute('id', 'gato-'+index);
                 liGato.innerText = gato.nome;
-
+                
                 lista.appendChild(liGato);
 
                 liGato.addEventListener('click', function(){              
-                    view.mostrarGato(gato);
+                    view.mostrarGato(gato);                
                 }, false);
             });
         },
