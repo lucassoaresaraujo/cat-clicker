@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         this.contador = 0;     
     }
 
-Gato.prototype.incrementar = function() {
+    Gato.prototype.incrementar = function() {
         this.contador += 1;
     }
 
