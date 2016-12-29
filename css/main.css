@@ -1,23 +1,48 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.header{
+    text-align: center;
+    margin: 0;
+    padding: 20px;       
+}
+
+.header .titulo{
+     font-weight: 400;
+     font-size: 30px;
+     color: #666;
+}
+
+.list, .container{
+    margin: 0;
+    padding: 0;
 }
 
 .list{
     width: 20%;
     float: left;
-    padding: 10px;
     
 }
 
-.list > h2{
+#list{
+    width: 80%;
+    margin: 15px auto;
     text-align: center;
 }
 
-.list > ul{
-    width: 100%;
+.list > h2, .container > h2, .new-cat > h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 0;
+    
 }
+
+
 
 .list > ul > li{
     padding: 5px;
@@ -30,23 +55,28 @@
 }
 
 .container{
-    width: 80%;
-    float: right;
+    text-align: center;
+    width: 50%;
+    float: left;
+    
 }
 
 .gato {
     display: inline-block;
-    margin: 5px;
+    margin: 0;
     padding: 0;
     
 }
 
 .gato > img{
     cursor: pointer;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.gato, .gato > img{
-    width: 300px;
+.gato{
+   width: 100%; 
 }
 
 
@@ -55,6 +85,23 @@
 }
 
 .new-cat{
-    clear: both;
+    width: 30%;
+    float: right;
     
+}
+
+.form-group{
+    width: 95%;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.form-group > label{
+    display: inline-block;
+    width: 15%;
+}
+
+.form-btn{
+    text-align: center;
+    margin: 10px 0;
 }
